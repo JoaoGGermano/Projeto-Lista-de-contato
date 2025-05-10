@@ -12,6 +12,7 @@ const contatcs =[
     <>
      <h1>Agenda de contatos</h1>
      <ContactItem></ContactItem>
+     <ContactItem></ContactItem>
 
   
     </>

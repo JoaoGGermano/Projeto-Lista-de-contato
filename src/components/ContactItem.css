@@ -1,0 +1,39 @@
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+    padding: 10px 10px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin: 15px 0px;
+    box-shadow: 0 2px 5px rgba(0,0,0)
+}
+h2{
+    margin: 0;
+}
+p{
+    margin: 0;
+    color: #877c7c;
+}
+
+.btns{
+    display:flex;
+    gap: 10px;
+    
+}
+
+.btns button{
+    color: white;
+    border:none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer
+}
+.btns button:nth-child(1){
+background-color: blue;
+}
+.btns button:nth-child(2){
+    background-color: red;
+}

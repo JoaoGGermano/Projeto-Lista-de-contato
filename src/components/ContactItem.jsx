@@ -1,14 +1,14 @@
 import "./ContactItem.css";
 
-function ContactItem(contacts){
+function ContactItem({id,name, phone, email, onDelete, onEdit}){
     return (
     <div className="contact-card">  
-        <h2>Mario</h2>
-        <p>📞 (69) 90054-7854</p>
-        <p>📧 mail@mail.com</p>
+        <h2>{name}</h2>
+        <p>📞 {phone}</p>
+        <p>📧 {email}</p>
         <div className="btns"> 
-         <button>Editar</button>
-            <button>Deletar</button>
+         <button onClick={onEdit}>Editar</button>
+            <button onClick={()=>onDelete(id)}>Deletar</button>
         </div>
     </div>
     );
